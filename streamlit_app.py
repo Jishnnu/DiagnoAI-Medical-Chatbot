@@ -7,7 +7,6 @@ pip install streamlit
 pip install duckduckgo-search
 pip install openai
 pip install gtts
-pip install nltk
 
 """
 
