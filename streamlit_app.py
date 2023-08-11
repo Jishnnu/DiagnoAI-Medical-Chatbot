@@ -1,11 +1,3 @@
-"""
-Install all necessary tools & libraries
-
-pip install langchain
-pip install SpeechRecognition
-
-"""
-
 # Import necessary libraries
 import io
 import requests
