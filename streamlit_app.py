@@ -39,6 +39,7 @@ def text_summarization_query(payload):
 # Define a function to generate an image of the summarized text
 def text_to_image_query(payload):
     API_URL = (
+        # Both these models rendered reasonably good images. Choose which works better according to your use case
         "https://api-inference.huggingface.co/models/artificialguybr/IconsRedmond-IconsLoraForSDXL"
         # "https://api-inference.huggingface.co/models/Linaqruf/animagine-xl"
     )
