@@ -1,0 +1,7 @@
+gtts
+nltk
+openai
+streamlit
+langchain
+duckduckgo-search
+SpeechRecognition
