@@ -3,8 +3,6 @@ Install all necessary tools & libraries
 
 pip install langchain
 pip install SpeechRecognition
-pip install streamlit
-pip install duckduckgo-search
 
 """
 
