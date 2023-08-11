@@ -5,8 +5,6 @@ pip install langchain
 pip install SpeechRecognition
 pip install streamlit
 pip install duckduckgo-search
-pip install openai
-pip install gtts
 
 """
 
