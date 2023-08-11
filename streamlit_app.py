@@ -78,11 +78,11 @@ if audio_file:
     st.session_state.messages.append({"role": "user", "content": transcribed_text})
     st.chat_message("user").write(transcribed_text)
 
-    # Setup closed-source JinaChat API
+    # Setup closed-source JinaChat API. You can replace this with OpenAI or any other chat-based LLM
     chat = JinaChat(
         temperature=0.2,
         streaming=True,
-        jinachat_api_key="hBpXMTzgERTn1MDL9d55:c02b4837aaf2fe0ecdfc31ee774a43c575d00f9c932d00a8cdd8e20be639b975",
+        jinachat_api_key="YOU_API_KEY",
     )
 
     # Initialize the transcription agent with DuckDuckGo and JinaChat
