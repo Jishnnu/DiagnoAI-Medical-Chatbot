@@ -26,7 +26,6 @@ from langchain.callbacks import StreamlitCallbackHandler
 from langchain.chat_models import JinaChat
 from langchain.tools import DuckDuckGoSearchRun
 
-# Simple Generative AI enabled Streamlit web application that converts speech to-image.
 headers = {"Authorization": f"Bearer YOUR_HUGGINGFACE_API_KEY"}
 nltk.download("punkt")
 
